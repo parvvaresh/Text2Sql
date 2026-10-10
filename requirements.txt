@@ -5,14 +5,14 @@ pydantic-settings
 python-dotenv
 
 # SQLAlchemy and MySQL Driver
-sqlalchemy
+sqlalchemy[asyncio]
 aiomysql
 mysql-connector-python
 
-# LangChain, LangGraph, and Google GenAI
+# LangChain, LangGraph, and Ollama
 langchain
 langgraph
-langchain-google-genai
+langchain-ollama
 langchain-community
 
 # For testing

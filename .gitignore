@@ -165,4 +165,5 @@ Thumbs.db
 
 # Project specific
 mysql_data/
+node_modules/
 data/*.backup
